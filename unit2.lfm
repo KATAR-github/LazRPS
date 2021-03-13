@@ -954,7 +954,7 @@ object Form2: TForm2
     Width = 368
     Alignment = taCenter
     AutoSize = False
-    Caption = 'LazRPS v1.0'#13#10#13#10'LazRPS is a rock-paper-scissors game written in Free Pascal (Lazarus).'#13#10#13#10'This program is licensed under the GNU GPL v2.'
+    Caption = 'LazRPS v1.0.1'#13#10#13#10'LazRPS is a rock-paper-scissors game written in Free Pascal (Lazarus).'#13#10#13#10'This program is licensed under the GNU GPL v2.'
     ParentColor = False
   end
   object Button1: TButton
@@ -962,7 +962,7 @@ object Form2: TForm2
     Height = 25
     Top = 296
     Width = 75
-    Caption = '&Licene'
+    Caption = '&License'
     OnClick = Button1Click
     TabOrder = 0
   end
@@ -977,12 +977,12 @@ object Form2: TForm2
   end
   object Label2: TLabel
     Cursor = crHandPoint
-    Left = 80
+    Left = 96
     Height = 15
     Top = 272
-    Width = 226
+    Width = 192
     Alignment = taCenter
-    Caption = 'https://github.com/KATAR-github/LazRPS'
+    Caption = 'https://github.com/KATAR7/LazRPS'
     Font.CharSet = RUSSIAN_CHARSET
     Font.Color = clBlue
     Font.Height = -12
